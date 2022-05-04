@@ -1,0 +1,73 @@
+/* .body{
+    justify-content: center;
+} */
+
+.component{
+    /* background-color: aquamarine; */
+    width: 60%;
+    height: 90vh;
+    /* justify-content: center; */
+    display: flex;
+    padding: 0 2rem 0 2rem;
+    background-color: white;
+    /* flex-wrap: wrap; */
+    background-image: url(bgg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ position: fixed;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+body{
+    /* background-color: whitesmoke; */
+    /* background:radial-gradient(50% 100% at left,#71eeba 50%,white 50.7%); */
+    font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+background-image:url(bg2.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.form{
+    /* background-color: blueviolet; */
+    height: 70%;
+    width: 60%;
+    margin-top: 5rem;
+    padding: 0 10px 0 10px;
+    
+}
+.par{
+    /* background-color: brown; */
+    width: 40%;
+    height: 50%;
+    margin-top: 10rem;
+    padding: 0 10px 0 20px;
+    border-left: 1px solid;
+
+}
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+    margin: 10px;
+}
+.inputName{
+    width: 40%;
+    padding: 5px 0 5px 10px;
+
+}
+.inputInfo{
+    width: 90%;
+    padding: 5px 0 5px 10px;
+}
+button{
+    padding: 5px 10px 5px 10px;
+    background-color:chocolate ;
+    color: white;
+    border: none;
+
+}
